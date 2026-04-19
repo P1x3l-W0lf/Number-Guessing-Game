@@ -1,5 +1,5 @@
 # Number-Guessing-Game
-A guessing game where you try to figure out a randomly sellected number between 1 and 1000. Playable [here](https://p1x3l-w0lf.github.io/number-guessing-game/).
+A guessing game where you try to figure out a randomly sellected number between 1 and 1000. Playable [here](https://p1x3l-w0lf.github.io/Number-Guessing-Game/).
 
 ## About This Project
 I made this game with html, javascript for logistics, and css for some basic styling.
