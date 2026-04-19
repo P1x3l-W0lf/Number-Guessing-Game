@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #aad0ff;
+    color: darkslateblue;
+}
+
+input{
+    width: 150px;
+    background-color: #779bdd;
+    border-color: midnightblue;
+    border-width: thin;
+    color: #040437;
+    font-size: medium;
+}
+
+::placeholder{
+    color: midnightblue;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: midnightblue;
+    border-color: midnightblue;
+    font-size: medium;
+}
+
+#stats {
+    background-color: #c3ddff;
+    margin-right: 30vw;
+    margin-left: 30vw;
+}
+
+#score{
+    display: flex;
+    justify-content: center;
+}
+#points{
+    margin-left: 5px;
+}
+
+#buffs{
+    display: flex;
+    justify-content: center;
+}
+#power{
+    margin-left: 5px;
+}
+
+#shop {
+    background-color: #c3ddff;
+    margin-right: 30vw;
+    margin-left: 30vw;
+}
+#items{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30vh;
+}
+#items button{
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 20%;
+}

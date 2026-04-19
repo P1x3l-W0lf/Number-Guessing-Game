@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div>
+    <h1>Guess the Number</h1>
+    <h4>Pick numbers between 1 and 1000 until you guess it!</h4>
+
+    <div id="input">
+        <label for="number"><input type="number" id="number" min="1" max="1000" placeholder="pick a number..."></label>
+        <button onclick="guess()">Guess</button>
+    </div>
+    <p id="result"></p>
+    <p id="output"></p>
+
+    <div id="stats">
+        <div id="score">
+            <h4>Score:</h4>
+            <h4 id="points">0</h4>
+        </div>
+
+        <div id="buffs">
+            <h4>Power-up:</h4>
+            <h4 id="power">none</h4>
+        </div>
+    </div>
+
+    <div id="shop">
+        <h3>~ SHOP ~</h3>
+        <h4>Everything costs 10 points.</h4>
+        <div id="items">
+            <button id="pre" onclick="buy('prePick')">Double Points</button>
+            <button id="rand" onclick="buy('random')">Random Power-up</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
